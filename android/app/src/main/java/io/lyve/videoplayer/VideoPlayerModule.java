@@ -1,9 +1,8 @@
-package io.instamobile.videoplayer;
+package io.lyve.videoplayer;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.provider.MediaStore;
 
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.ReactApplicationContext;

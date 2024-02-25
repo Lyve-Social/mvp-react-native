@@ -4,7 +4,7 @@ const HORIZONTAL_SPACING_BASE = Platform.OS === 'web' ? 4 : 2
 const VERTICAL_SPACING_BASE = 4
 
 const icons = {
-  logo: require('../assets/images/app-logo.png'),
+  logo: require('../assets/images/logo.png'),
   userAvatar: require('../assets/icons/default-avatar.jpg'),
   backArrow: require('../assets/icons/arrow-back-icon.png'),
   menuHamburger: require('../assets/icons/menu-hamburger.png'),
@@ -36,7 +36,7 @@ const icons = {
   thumbsupUnfilled: require('../assets/icons/thumbsup-unfilled.png'),
   heartUnfilled: require('../assets/icons/heart-unfilled.png'),
   heartFilled: require('../assets/icons/filled-heart.png'),
-  like: require('../assets/icons/blue-like.png'),
+  blueLike: require('../assets/icons/blue-like.png'),
   love: require('../assets/icons/red-heart.png'),
   angry: require('../assets/icons/anger.png'),
   share: require('../assets/icons/share.png'),
@@ -61,13 +61,13 @@ const icons = {
 }
 
 const lightColors = {
-  primaryBackground: '#ffffff',
+  primaryBackground: '#864EFE',
   secondaryBackground: '#ffffff',
   primaryForeground: '#292929',
   secondaryForeground: '#8442bd',
   foregroundContrast: 'white',
-  primaryText: '#151723',
-  secondaryText: '#7e7e7e',
+  primaryText: '#1A1A1A',
+  secondaryText: '#D9D9D9',
   hairline: '#e0e0e0',
   grey0: '#fafafa',
   grey3: '#f5f5f5',
@@ -79,8 +79,8 @@ const lightColors = {
 const navContainerTheme = {
   dark: {
     colors: {
-      primary: '#3875e8',
-      background: '#000000',
+      primary: '#ffffff',
+      background: '#4455EC',
       card: '#000000',
       text: '#ffffff',
       border: '#f5f5f5',
@@ -91,8 +91,8 @@ const navContainerTheme = {
   },
   light: {
     colors: {
-      primary: '#3875e8',
-      background: '#ffffff',
+      primary: '#ffffff',
+      background: '#864EFE',
       card: '#ffffff',
       text: '#000000',
       border: '#d6d6d6',
@@ -103,7 +103,7 @@ const navContainerTheme = {
   },
 }
 
-const InstamobileTheme = {
+const LyveTheme = {
   navContainerTheme,
   colors: {
     light: lightColors,
@@ -166,4 +166,4 @@ const InstamobileTheme = {
   },
 }
 
-export default InstamobileTheme
+export default LyveTheme

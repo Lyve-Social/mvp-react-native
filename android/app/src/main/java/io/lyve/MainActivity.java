@@ -1,13 +1,9 @@
-package io.instamobile;
+package io.lyve;
 
-import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
-import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
-
-import expo.modules.ReactActivityDelegateWrapper;
 
 public class MainActivity extends ReactActivity {
 
@@ -17,7 +13,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "Instamobile";
+        return "lyve";
     }
 
     /**

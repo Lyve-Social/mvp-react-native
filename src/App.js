@@ -15,12 +15,12 @@ import { ConfigProvider } from './config'
 import { AuthProvider } from './core/onboarding/hooks/useAuth'
 import { ProfileAuthProvider } from './core/profile/hooks/useProfileAuth'
 import { authManager } from './core/onboarding/api'
-import InstamobileTheme from './theme'
+import LyveTheme from './theme'
 
 const store = configureStore()
 
 const App = () => {
-  const theme = extendTheme(InstamobileTheme)
+  const theme = extendTheme(LyveTheme)
 
   useEffect(() => {
     SplashScreen.hide()

@@ -1,4 +1,4 @@
-package io.instamobile.videoplayer;
+package io.lyve.videoplayer;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

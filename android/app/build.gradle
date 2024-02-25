@@ -104,7 +104,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.instamobile"
+        applicationId "io.lyve"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

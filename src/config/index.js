@@ -24,27 +24,24 @@ export const ConfigProvider = ({ children }) => {
       '1099201876026-almgdid9mhj3utt9rqhmhpp2vv6j9kch.apps.googleusercontent.com',
     videoMaxDuration: 15,
     onboardingConfig: {
-      welcomeTitle: localized('Welcome to your app'),
-      welcomeCaption: localized(
-        'Use this codebase to build your own a Tik Tok clone in minutes.',
-      ),
+      welcomeTitle: localized('Welcome to Lyve!'),
       walkthroughScreens: [
         {
           icon: require('../assets/images/photo.png'),
-          title: localized('Tik Toks'),
+          title: localized('Lyve Videos'),
           description: localized(
-            'Compose videos with songs in the background just like Tik Tok.',
+            'Compose videos with with friends at meetups.',
           ),
         },
         {
           icon: require('../assets/images/file.png'),
           title: localized('Watch'),
-          description: localized('Watch Tik Toks from your followers.'),
+          description: localized('See what your friends are up to.'),
         },
         {
           icon: require('../assets/images/like.png'),
           title: localized('Likes'),
-          description: localized('Like the videos that amuse you!'),
+          description: localized('Encourage your friends to socialize'),
         },
         {
           icon: require('../assets/images/chat.png'),
@@ -132,7 +129,7 @@ export const ConfigProvider = ({ children }) => {
         },
       ],
     },
-    tosLink: 'https://www.instamobile.io/eula-instachatty/',
+    tosLink: 'Terms and conditions go here',
     isUsernameFieldEnabled: true,
     smsSignupFields: [
       {
@@ -326,11 +323,11 @@ export const ConfigProvider = ({ children }) => {
               type: 'text',
               editable: false,
               key: 'push_notifications_enabled',
-              value: '142 Steiner Street, San Francisco, CA, 94115',
+              value: 'Sydney, Australia',
             },
             {
               displayName: localized('E-mail us'),
-              value: 'florian@instamobile.io',
+              value: 'jatin.waichal@gmail.com',
               type: 'text',
               editable: false,
               key: 'email',
@@ -350,7 +347,7 @@ export const ConfigProvider = ({ children }) => {
         },
       ],
     },
-    contactUsPhoneNumber: '+16504850000',
+    contactUsPhoneNumber: '+61451 250 725',
     adsConfig: {
       facebookAdsPlacementID:
         Platform.OS === 'ios'

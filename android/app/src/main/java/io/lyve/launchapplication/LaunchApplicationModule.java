@@ -1,10 +1,8 @@
-package io.instamobile.launchapplication;
+package io.lyve.launchapplication;
 
 import android.app.KeyguardManager;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.app.Activity;
 import android.os.PowerManager;
 import android.view.WindowManager;
 
@@ -44,7 +42,7 @@ public class LaunchApplicationModule extends ReactContextBaseJavaModule {
     kl.disableKeyguard();
 
   //  Intent dialogIntent = new Intent(getReactApplicationContext(), MainActivity.class);
-    Intent dialogIntent = getReactApplicationContext().getPackageManager().getLaunchIntentForPackage("io.instamobile");
+    Intent dialogIntent = getReactApplicationContext().getPackageManager().getLaunchIntentForPackage("io.lyve");
 
     dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
     dialogIntent.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED +

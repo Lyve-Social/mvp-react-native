@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="io.instamobile">
+  package="io.lyve">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -18,10 +18,9 @@
     
 
     <application
-      android:name=".MainApplication"
+      android:name="io.lyve.MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
-      android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
 
@@ -31,7 +30,7 @@
         android:value="AIzaSyDOJM4bdpX3wXWQyx1m5mkQCFohWn1S7pI"/>
       <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
       <activity
-        android:name=".SplashActivity"
+        android:name="io.lyve.SplashActivity"
         android:theme="@style/SplashTheme"
         android:label="@string/app_name"
         android:exported="true">
@@ -41,7 +40,7 @@
         </intent-filter>
       </activity>
       <activity
-        android:name=".MainActivity"
+        android:name="io.lyve.MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|uiMode"
         android:launchMode="singleTask"
