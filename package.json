@@ -1,5 +1,5 @@
 {
-  "name": "Instamobile",
+  "name": "Lyve",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -60,6 +60,7 @@
     "expo-video-thumbnails": "^7.4.0",
     "expo-web-browser": "^12.3.2",
     "ffmpeg-kit-react-native": "^5.1.0",
+    "firebase": "^10.8.1",
     "i18n-js": "^3.5.0",
     "invert-color": "^2.0.0",
     "lodash": "^4.17.21",
