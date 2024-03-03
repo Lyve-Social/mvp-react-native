@@ -7,31 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:441693953910:android:304206ba3354308e1ee457",
-        "android_client_info": {
-          "package_name": "com.lyvesocial.android"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA2KjG6cdSSL-FW7O-_79z7iSgOMJ6Vfk8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:441693953910:android:0b4458efe8b200091ee457",
         "android_client_info": {
           "package_name": "io.lyve"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "441693953910-imp47e7h92k69mkpf1g8rvg3tvnl87d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA2KjG6cdSSL-FW7O-_79z7iSgOMJ6Vfk8"
@@ -39,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441693953910-imp47e7h92k69mkpf1g8rvg3tvnl87d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

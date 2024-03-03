@@ -172,11 +172,11 @@ const FeedScreen = props => {
     try {
       const result = await Share.share(
         {
-          title: localized('Share Instamobile post.'),
+          title: localized('Share Lyve post.'),
           url,
         },
         {
-          dialogTitle: localized('Share Instamobile post.'),
+          dialogTitle: localized('Share Lyve post.'),
         },
       )
     } catch (error) {

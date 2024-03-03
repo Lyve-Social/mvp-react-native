@@ -10,7 +10,7 @@ const dynamicStyles = (theme, appearance) => {
       alignItems: 'center',
       justifyContent: 'space-between',
       borderTopWidth: 0.2,
-      borderTopColor: '#aaa',
+      borderTopColor: appearance === 'dark' ? '#fff' : '#000',
       backgroundColor: theme.colors[appearance].primaryBackground,
       width: '100%',
       maxWidth: 1024,
@@ -33,12 +33,8 @@ const dynamicStyles = (theme, appearance) => {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
-      borderLeftWidth: 4,
-      borderRightWidth: 4,
-      borderRadius: 10,
-      borderLeftColor: '#69C9D0',
-      borderRightColor: '#EE1D52',
-      backgroundColor: '#FFF',
+      borderRadius: 50,
+      backgroundColor: '#D9D9D9',
     },
     icon: {
       height: 28,
@@ -47,10 +43,11 @@ const dynamicStyles = (theme, appearance) => {
     addIcon: {
       height: 18,
       width: 18,
-      tintColor: '#010101',
+      tintColor: '#000',
+      fontWeight: 700
     },
     focusTintColor: {
-      tintColor: '#010101',
+      tintColor: '#000',
       // tintColor: '#f5f5f5',
     },
     unFocusTintColor: {

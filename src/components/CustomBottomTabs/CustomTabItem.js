@@ -36,7 +36,7 @@ function TabItem({
         style={[
           styles.icon,
           focus ? styles.focusTintColor : styles.unFocusTintColor,
-          isTransparentTab && { tintColor: '#f5f5f5' },
+          isTransparentTab && { tintColor: '#4455EC' },
         ]}
         source={
           focus ? tabIcons[route.name].focus : tabIcons[route.name].unFocus
