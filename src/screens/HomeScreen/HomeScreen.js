@@ -7,6 +7,7 @@ import { Feed } from '../../components'
 import styles from './styles'
 import { useUserReportingMutations } from '../../core/user-reporting'
 import CommentsScreen from '../CommentsScreen/CommentsScreen'
+import {CameraScreen} from '../../screens'
 import {
   useHomeFeedPosts,
   useDiscoverPosts,
@@ -213,7 +214,8 @@ const FeedScreen = props => {
 
   return (
     <View style={styles.container}>
-      <Feed
+      <CameraScreen></CameraScreen>
+      {/* <Feed
         loading={loading}
         feed={feed[feedType]}
         isCustomFeed={false}
@@ -238,7 +240,7 @@ const FeedScreen = props => {
         item={selectedItem}
         onDismiss={onDismissCommentsSheet}
         isVisible={isVisible}
-      />
+      /> */}
     </View>
   )
 }
