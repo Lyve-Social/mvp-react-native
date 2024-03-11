@@ -61,13 +61,13 @@ const icons = {
 }
 
 const lightColors = {
-  primaryBackground: '#864EFE',
-  secondaryBackground: '#ffffff',
+  primaryBackground: '#4455EC',
+  secondaryBackground: '#1A1A1A',
   primaryForeground: '#292929',
   secondaryForeground: '#8442bd',
   foregroundContrast: 'white',
   primaryText: '#1A1A1A',
-  secondaryText: '#D9D9D9',
+  secondaryText: '#FFF',
   hairline: '#e0e0e0',
   grey0: '#fafafa',
   grey3: '#f5f5f5',

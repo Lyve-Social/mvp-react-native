@@ -15,11 +15,13 @@ export default function BottomTabs({
   tabIcons,
   colorTitle,
   colorIcon,
+  isTransparent
 }) {
   const { theme, appearance } = useTheme()
   const styles = dynamicStyles(theme, appearance)
+  console.log("isTransparent:", isTransparent)
 
-  const [isTransparentTab, setIsTransparentTab] = useState(true)
+  const [isTransparentTab, setIsTransparentTab] = useState(isTransparent || true)
 
   const customRoutes = [...state.routes]
   const indexToInsert = Math.floor(customRoutes.length / 2)

@@ -214,7 +214,7 @@ const FeedScreen = props => {
 
   return (
     <View style={styles.container}>
-      <CameraScreen></CameraScreen>
+      <CameraScreen />
       {/* <Feed
         loading={loading}
         feed={feed[feedType]}

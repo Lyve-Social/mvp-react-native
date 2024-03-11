@@ -28,11 +28,12 @@ const BottomTabNavigator = () => {
           route={route}
           state={state}
           navigation={navigation}
+          isTransparent={route?.name?.toLowerCase() === 'camera'}
         />
       )}
       initialRouteName="Feed">
       <BottomTab.Screen name="Feed" component={InnerFeedNavigator} />
-      <BottomTab.Screen name="Discover" component={InnerDiscoverNavigator} />
+      {/*<BottomTab.Screen name="Discover" component={InnerDiscoverNavigator} />*/}
       <BottomTab.Screen name="Inbox" component={InnerChatSearchNavigator} />
       <BottomTab.Screen name="Profile" component={InnerProfileNavigator} />
     </BottomTab.Navigator>
